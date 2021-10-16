@@ -1,4 +1,5 @@
 /*@import url("ChulaNarak_Bold_Italic/stylesheet.css");*/
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 @font-face {
     font-family: "ChulaNarak Bold Italic";
@@ -100,7 +101,7 @@ body {
 
 #fontfollow {
     font-size: 12px;
-    font-family: "Fahkwang";
+    font-family: "Fahkwang", sans-serif;
     color: rgb(247, 241, 92);
     width: 90%;
     display: inline-block;
@@ -116,7 +117,7 @@ body {
 }
 
 #font2 {
-    font-family: "Fahkwang";
+    font-family: "Fahkwang", sans-serif;
     text-align: center;
     padding-top: 90px;
     color: rgb(113, 86, 162);
@@ -125,10 +126,11 @@ body {
 }
 
 .font3 {
-    font-family: "Fahkwang ExtraLight";
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 200;
+    font-style: italic;
     color: rgb(113, 86, 162);
     font-size: 18px;
-    font-style: italic;
     max-width: 100%;
     padding-left: 10px;
     text-align: center;
